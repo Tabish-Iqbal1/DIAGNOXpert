@@ -24,7 +24,7 @@ if os.path.exists(page_icon_path):
 
 
 st.title("DIAGNOXpert")
-st.caption("YOUR AI DOCTOR")
+st.caption("YOUR AI DOCTOR:Ask about your disease")
 
 try:
     genai.configure(api_key=google_api_key)

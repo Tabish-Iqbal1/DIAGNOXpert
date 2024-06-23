@@ -50,7 +50,8 @@ submit=st.button("Tell me about the Disease")
 
 input_prompt="""
 You are an expert in analyzing diseases.Analyze the image for signs of any disease.
-Give the disease Knowledge.
+Give the disease Knowledge.If you find that the image is not of a disease then simply reply that 
+the image does not contain a disease.
 
 
 """
